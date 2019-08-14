@@ -455,24 +455,6 @@
                             "Permission": "MANAGE_ROLES"
                         }
                     },
-                    "mute": {
-                        "location": "json",
-                        "type": "bool",
-                        "description": "if the user is muted",
-                        "default": false,
-                        "extra": {
-                            "Permission": "MUTE_MEMBERS"
-                        }
-                    },
-                    "deaf": {
-                        "location": "json",
-                        "type": "bool",
-                        "description": "if the user is deafened",
-                        "default": false,
-                        "extra": {
-                            "Permission": "DEAFEN_MEMBERS"
-                        }
-                    },
                     "channel_id": {
                         "location": "json",
                         "type": "snowflake",
